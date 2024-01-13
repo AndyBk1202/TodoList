@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO App</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container center">
+      <h1 class="center title">My TODO App</h1>
+      <div class="flow-right controls">
+        <span>Tổng số công việc: <span id="item-count">0</span></span>
+        <span>Số công việc chưa hoàn thành: <span id="unchecked-count">0</span></span>
+      </div>
+      <button class="button center" onClick="newTodo()">New TODO</button>
+      <br>
+      <button class="button center" onClick="remove()">Remove</button>
+        <ul id="todo-list" class="todo-list">
+        </ul>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
